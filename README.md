@@ -1,6 +1,6 @@
 # JAVA-Course-for-beginners
 
-<img src="./Java Crash Course-001.png" width="1920" />
+<img src="./Java Crash Course/Java Crash Course-001.png" width="1920" />
 <img src="/Java Crash Course-002.png" width="1920" />
 <img src="/Java Crash Course-003.png" width="1920" />
 <img src="/Java Crash Course-004.png" width="1920" />

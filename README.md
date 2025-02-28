@@ -452,4 +452,32 @@ try block: Contains code that attempts to open and read a file.
 catch block: Handles FileNotFoundException if the file is not found.
 
 finally block: Ensures that the FileInputStream is closed, regardless of whether an exception occurred.
+## Custom exception class
+```cs
+// Custom exception class
+class SoumikException extends Exception {
+    // Constructor that accepts a custom error message
+    public SoumikException(String message) {
+        super(message);
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String[] args) {
+        try {
+            checkCondition(false);
+        } catch (SoumikException e) {
+            System.out.println("Caught SoumikException: " + e.getMessage());
+        }
+    }
+
+    // Method that throws SoumikException
+    public static void checkCondition(boolean condition) throws SoumikException {
+        if (!condition) {
+            throw new SoumikException("Condition failed!");
+        }
+    }
+}
+```
 

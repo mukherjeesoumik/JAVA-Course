@@ -608,6 +608,9 @@ public class Main {
 }
 ```
 ## Polymorphism (Method Overriding)
+### 1. Compile-time Polymorphism ( Method Overloading )
+This occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. It's a way to achieve runtime polymorphism.
+
 ```cs
 class Animal {
     void sound() {
@@ -616,16 +619,36 @@ class Animal {
 }
 
 class Dog extends Animal {
-    @Override
     void sound() {
         System.out.println("Dog barks");
     }
 }
 
-public class Main {
+public class TestPolymorphism {
     public static void main(String[] args) {
-        Animal myAnimal = new Dog(); // Upcasting
-        myAnimal.sound(); // Output: Dog barks
+        Animal myAnimal = new Dog();
+        myAnimal.sound();  // Output: Dog barks
+    }
+}
+```
+### 2. Runtime Polymorphism ( Method Overriding )
+This happens when multiple methods in the same class have the same name but different parameters. It is a way to achieve compile-time polymorphism.
+
+```cs
+class Adder {
+    static int add(int a, int b) {
+        return a + b;
+    }
+
+    static double add(double a, double b) {
+        return a + b;
+    }
+}
+
+public class TestOverloading {
+    public static void main(String[] args) {
+        System.out.println(Adder.add(10, 20));      // Output: 30
+        System.out.println(Adder.add(10.5, 20.5));  // Output: 31.0
     }
 }
 ```

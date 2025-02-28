@@ -10,6 +10,128 @@ public class HelloWorld {
     }
 }
 ```
+
+# Datatypes 
+### 1. Primitive
+### 2. Non-Primitive
+Primitive Data Types and Their Sizes
+#### 1. byte
+
+#### Size: 8 bits
+
+#### Range: -128 to 127
+
+Example:
+
+```cs
+byte b = 100;
+System.out.println("byte: " + b);
+```
+#### 2. short
+
+#### Size: 16 bits
+
+#### Range: -32,768 to 32,767
+
+Example:
+
+java
+short s = 10000;
+System.out.println("short: " + s);
+int
+
+Size: 32 bits
+
+Range: -2^31 to 2^31-1
+
+Example:
+
+java
+int i = 100000;
+System.out.println("int: " + i);
+long
+
+Size: 64 bits
+
+Range: -2^63 to 2^63-1
+
+Example:
+
+java
+long l = 100000L;
+System.out.println("long: " + l);
+float
+
+Size: 32 bits
+
+Single-precision floating point
+
+Example:
+
+java
+float f = 5.75f;
+System.out.println("float: " + f);
+double
+
+Size: 64 bits
+
+Double-precision floating point
+
+Example:
+
+java
+double d = 19.99;
+System.out.println("double: " + d);
+boolean
+
+Size: Varies (depends on JVM implementation)
+
+Values: true or false
+
+Example:
+
+java
+boolean isJavaFun = true;
+System.out.println("boolean: " + isJavaFun);
+char
+
+Size: 16 bits
+
+Single Unicode character
+
+Example:
+
+java
+char letter = 'A';
+System.out.println("char: " + letter);
+Non-Primitive Data Types
+String
+
+A sequence of characters
+
+Example:
+
+java
+String greeting = "Hello, World!";
+System.out.println("String: " + greeting);
+Array
+
+A collection of elements of the same type
+
+Example:
+
+java
+int[] numbers = {1, 2, 3, 4, 5};
+for (int num : numbers) {
+    System.out.println("Array element: " + num);
+}
+
+
+
+
+
+
+
 # Operators
 ### 1. Arithmetic Operators:
 Used to perform basic arithmetic operations.

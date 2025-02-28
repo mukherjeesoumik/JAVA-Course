@@ -1,4 +1,266 @@
 # JAVA Course for beginners
+Java is a versatile, object-oriented programming language widely used for building enterprise-scale applications, mobile apps (Android), web applications, and more. Below, I’ll provide a sort of "all-in-one" Java guide with examples covering basic syntax, sorting algorithms, and Object-Oriented Programming (OOP) concepts.
+
+1. Basic Java Syntax
+Hello World Program
+java
+Copy
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+2. Sorting Algorithms in Java
+Bubble Sort
+java
+Copy
+public class BubbleSort {
+    public static void bubbleSort(int[] arr) {
+        int n = arr.length;
+        for (int i = 0; i < n - 1; i++) {
+            for (int j = 0; j < n - i - 1; j++) {
+                if (arr[j] > arr[j + 1]) {
+                    // Swap arr[j] and arr[j+1]
+                    int temp = arr[j];
+                    arr[j] = arr[j + 1];
+                    arr[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {64, 34, 25, 12, 22, 11, 90};
+        bubbleSort(arr);
+        System.out.println("Sorted array:");
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+    }
+}
+Quick Sort
+java
+Copy
+public class QuickSort {
+    public static void quickSort(int[] arr, int low, int high) {
+        if (low < high) {
+            int pi = partition(arr, low, high);
+            quickSort(arr, low, pi - 1);
+            quickSort(arr, pi + 1, high);
+        }
+    }
+
+    private static int partition(int[] arr, int low, int high) {
+        int pivot = arr[high];
+        int i = low - 1;
+        for (int j = low; j < high; j++) {
+            if (arr[j] < pivot) {
+                i++;
+                // Swap arr[i] and arr[j]
+                int temp = arr[i];
+                arr[i] = arr[j];
+                arr[j] = temp;
+            }
+        }
+        // Swap arr[i+1] and arr[high] (pivot)
+        int temp = arr[i + 1];
+        arr[i + 1] = arr[high];
+        arr[high] = temp;
+        return i + 1;
+    }
+
+    public static void main(String[] args) {
+        int[] arr = {10, 7, 8, 9, 1, 5};
+        quickSort(arr, 0, arr.length - 1);
+        System.out.println("Sorted array:");
+        for (int i : arr) {
+            System.out.print(i + " ");
+        }
+    }
+}
+3. Object-Oriented Programming (OOP) Concepts
+Classes and Objects
+java
+Copy
+class Dog {
+    // Fields (attributes)
+    String name;
+    int age;
+
+    // Constructor
+    public Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+
+    // Method
+    public void bark() {
+        System.out.println(name + " says: Woof!");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog myDog = new Dog("Buddy", 3);
+        myDog.bark(); // Output: Buddy says: Woof!
+    }
+}
+Inheritance
+java
+Copy
+class Animal {
+    void eat() {
+        System.out.println("This animal eats food.");
+    }
+}
+
+class Cat extends Animal {
+    void meow() {
+        System.out.println("The cat meows.");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Cat myCat = new Cat();
+        myCat.eat(); // Inherited from Animal
+        myCat.meow(); // Specific to Cat
+    }
+}
+Polymorphism (Method Overriding)
+java
+Copy
+class Animal {
+    void sound() {
+        System.out.println("Animal makes a sound");
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Animal myAnimal = new Dog(); // Upcasting
+        myAnimal.sound(); // Output: Dog barks
+    }
+}
+Encapsulation
+java
+Copy
+class Person {
+    private String name; // Private field
+
+    // Getter
+    public String getName() {
+        return name;
+    }
+
+    // Setter
+    public void setName(String name) {
+        this.name = name;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Person person = new Person();
+        person.setName("John");
+        System.out.println("Name: " + person.getName()); // Output: Name: John
+    }
+}
+Abstraction (Using Abstract Class)
+java
+Copy
+abstract class Shape {
+    abstract void draw(); // Abstract method
+}
+
+class Circle extends Shape {
+    @Override
+    void draw() {
+        System.out.println("Drawing a Circle");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Shape myShape = new Circle();
+        myShape.draw(); // Output: Drawing a Circle
+    }
+}
+4. Collections Framework
+ArrayList Example
+java
+Copy
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+        ArrayList<String> fruits = new ArrayList<>();
+        fruits.add("Apple");
+        fruits.add("Banana");
+        fruits.add("Cherry");
+
+        System.out.println("Fruits: " + fruits);
+    }
+}
+HashMap Example
+java
+Copy
+import java.util.HashMap;
+
+public class Main {
+    public static void main(String[] args) {
+        HashMap<String, Integer> map = new HashMap<>();
+        map.put("Alice", 25);
+        map.put("Bob", 30);
+
+        System.out.println("Bob's age: " + map.get("Bob")); // Output: Bob's age: 30
+    }
+}
+5. Exception Handling
+java
+Copy
+public class Main {
+    public static void main(String[] args) {
+        try {
+            int[] numbers = {1, 2, 3};
+            System.out.println(numbers[5]); // ArrayIndexOutOfBoundsException
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Exception caught: " + e.getMessage());
+        } finally {
+            System.out.println("This will always execute.");
+        }
+    }
+}
+6. File Handling
+Reading a File
+java
+Copy
+import java.io.File;
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        try {
+            File file = new File("example.txt");
+            Scanner reader = new Scanner(file);
+            while (reader.hasNextLine()) {
+                String data = reader.nextLine();
+                System.out.println(data);
+            }
+            reader.close();
+        } catch (Exception e) {
+            System.out.println("An error occurred.");
+            e.printStackTrace();
+        }
+    }
+}
 
 <img src="./Java Crash Course/Java Crash Course-001.png" width="1920" />
 <img src="./Java Crash Course/Java Crash Course-002.png" width="1920" />

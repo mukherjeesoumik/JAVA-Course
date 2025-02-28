@@ -453,7 +453,7 @@ public class QuickSort {
     }
 }
 ```
-# 3. Object-Oriented Programming (OOP) Concepts
+# Object-Oriented Programming (OOP) Concepts
 ## Classes and Objects
 ```cs
 class Dog {
@@ -608,7 +608,7 @@ public class Main {
 }
 ```
 ## Polymorphism (Method Overriding)
-### 1. Compile-time Polymorphism ( Method Overloading )
+## 1. Compile-time Polymorphism ( Method Overloading )
 This occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. It's a way to achieve runtime polymorphism.
 
 ```cs
@@ -631,7 +631,7 @@ public class TestPolymorphism {
     }
 }
 ```
-### 2. Runtime Polymorphism ( Method Overriding )
+## 2. Runtime Polymorphism ( Method Overriding )
 This happens when multiple methods in the same class have the same name but different parameters. It is a way to achieve compile-time polymorphism.
 
 ```cs

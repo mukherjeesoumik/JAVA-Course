@@ -454,8 +454,8 @@ public class QuickSort {
     }
 }
 ```
-## 3. Object-Oriented Programming (OOP) Concepts
-### Classes and Objects
+# 3. Object-Oriented Programming (OOP) Concepts
+## Classes and Objects
 ```cs
 class Dog {
     // Fields (attributes)
@@ -481,8 +481,8 @@ public class Main {
     }
 }
 ```
-### Inheritance
-## 1. Single Inheritance
+## Inheritance
+### 1. Single Inheritance
 A single class inherits from one superclass.
 
 ```cs
@@ -506,7 +506,7 @@ public class Main {
     }
 }
 ```
-## 2. Multilevel Inheritance
+### 2. Multilevel Inheritance
 A class is derived from another class, which is also derived from another class.
 
 ```cs
@@ -537,7 +537,7 @@ public class Main {
     }
 }
 ```
-## 3. Hierarchical Inheritance
+### 3. Hierarchical Inheritance
 Multiple classes inherit from one superclass.
 
 ```cs
@@ -571,7 +571,7 @@ public class Main {
     }
 }
 ```
-## 4. Hybrid Inheritance (Using Interfaces)
+### 4. Hybrid Inheritance (Using Interfaces)
 A combination of two or more types of inheritance. Java supports it through interfaces.
 
 ```cs
@@ -608,7 +608,7 @@ public class Main {
     }
 }
 ```
-### Polymorphism (Method Overriding)
+## Polymorphism (Method Overriding)
 ```cs
 class Animal {
     void sound() {
@@ -630,7 +630,7 @@ public class Main {
     }
 }
 ```
-### Encapsulation
+## Encapsulation
 ```cs
 class Person {
     private String name; // Private field
@@ -654,7 +654,7 @@ public class Main {
     }
 }
 ```
-### Abstraction (Using Abstract Class)
+## Abstraction (Using Abstract Class)
 ```cs
 abstract class Shape {
     abstract void draw(); // Abstract method
@@ -674,7 +674,7 @@ public class Main {
     }
 }
 ```
-### interfaces :
+## interfaces :
 ```cs
 // Define an interface named Animal
 interface Animal {
@@ -738,7 +738,7 @@ public class InterfaceExample {
 }
 
 ```
-## 4. Collections Framework
+# 4. Collections Framework
 ### ArrayList Example
 ```cs
 import java.util.ArrayList;

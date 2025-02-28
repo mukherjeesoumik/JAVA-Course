@@ -482,24 +482,129 @@ public class Main {
 }
 ```
 ### Inheritance
+## 1. Single Inheritance
+A single class inherits from one superclass.
+
 ```cs
 class Animal {
     void eat() {
-        System.out.println("This animal eats food.");
+        System.out.println("Eating...");
     }
 }
 
-class Cat extends Animal {
-    void meow() {
-        System.out.println("The cat meows.");
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking...");
     }
 }
 
 public class Main {
     public static void main(String[] args) {
-        Cat myCat = new Cat();
-        myCat.eat(); // Inherited from Animal
-        myCat.meow(); // Specific to Cat
+        Dog dog = new Dog();
+        dog.eat();
+        dog.bark();
+    }
+}
+```
+## 2. Multilevel Inheritance
+A class is derived from another class, which is also derived from another class.
+
+```cs
+class Animal {
+    void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+class Mammal extends Animal {
+    void walk() {
+        System.out.println("Walking...");
+    }
+}
+
+class Dog extends Mammal {
+    void bark() {
+        System.out.println("Barking...");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.eat();
+        dog.walk();
+        dog.bark();
+    }
+}
+```
+## 3. Hierarchical Inheritance
+Multiple classes inherit from one superclass.
+
+```cs
+class Animal {
+    void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+class Dog extends Animal {
+    void bark() {
+        System.out.println("Barking...");
+    }
+}
+
+class Cat extends Animal {
+    void meow() {
+        System.out.println("Meowing...");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.eat();
+        dog.bark();
+
+        Cat cat = new Cat();
+        cat.eat();
+        cat.meow();
+    }
+}
+```
+## 4. Hybrid Inheritance (Using Interfaces)
+A combination of two or more types of inheritance. Java supports it through interfaces.
+
+```cs
+interface Animal {
+    void eat();
+}
+
+class Mammal implements Animal {
+    public void eat() {
+        System.out.println("Eating...");
+    }
+}
+
+interface Pet {
+    void play();
+}
+
+class Dog extends Mammal implements Pet {
+    public void play() {
+        System.out.println("Playing...");
+    }
+
+    void bark() {
+        System.out.println("Barking...");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog dog = new Dog();
+        dog.eat();
+        dog.play();
+        dog.bark();
     }
 }
 ```

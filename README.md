@@ -2,7 +2,7 @@
 Java is a versatile, object-oriented programming language widely used for building enterprise-scale applications, mobile apps (Android), web applications, and more. Below, I’ll provide a sort of "all-in-one" Java guide with examples covering basic syntax, sorting algorithms, and Object-Oriented Programming (OOP) concepts.
 
 ## 1. Basic Java Syntax
-Hello World Program
+### Hello World Program
 ```cs
 public class HelloWorld {
     public static void main(String[] args) {
@@ -11,7 +11,7 @@ public class HelloWorld {
 }
 ```
 ## 2. Sorting Algorithms in Java
-Bubble Sort
+### Bubble Sort
 ```cs
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
@@ -38,7 +38,7 @@ public class BubbleSort {
     }
 }
 ```
-Quick Sort
+### Quick Sort
 ```cs
 public class QuickSort {
     public static void quickSort(int[] arr, int low, int high) {
@@ -79,7 +79,7 @@ public class QuickSort {
 }
 ```
 ## 3. Object-Oriented Programming (OOP) Concepts
-Classes and Objects
+### Classes and Objects
 ```cs
 class Dog {
     // Fields (attributes)

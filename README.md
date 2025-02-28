@@ -409,7 +409,6 @@ public void readFile() throws IOException {
 Comprehensive Example
 Here’s a complete example that includes all the components:
 ```cs
-java
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;

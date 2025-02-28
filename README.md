@@ -27,18 +27,19 @@ Example:
 byte b = 100;
 System.out.println("byte: " + b);
 ```
-#### 2. short
+### 2. short
 
-#### Size: 16 bits
+ Size: 16 bits
 
-#### Range: -32,768 to 32,767
+ Range: -32,768 to 32,767
 
 Example:
 
-java
+```cs
 short s = 10000;
 System.out.println("short: " + s);
-int
+```
+### 3. int
 
 Size: 32 bits
 
@@ -46,10 +47,11 @@ Range: -2^31 to 2^31-1
 
 Example:
 
-java
+```cs
 int i = 100000;
 System.out.println("int: " + i);
-long
+```
+### 4. long
 
 Size: 64 bits
 
@@ -57,10 +59,11 @@ Range: -2^63 to 2^63-1
 
 Example:
 
-java
+```cs
 long l = 100000L;
 System.out.println("long: " + l);
-float
+```
+### 5. float
 
 Size: 32 bits
 
@@ -68,10 +71,11 @@ Single-precision floating point
 
 Example:
 
-java
+```cs
 float f = 5.75f;
 System.out.println("float: " + f);
-double
+```
+### 6. double
 
 Size: 64 bits
 
@@ -79,10 +83,11 @@ Double-precision floating point
 
 Example:
 
-java
+```cs
 double d = 19.99;
 System.out.println("double: " + d);
-boolean
+```
+### 7. boolean
 
 Size: Varies (depends on JVM implementation)
 
@@ -90,10 +95,11 @@ Values: true or false
 
 Example:
 
-java
+```cs
 boolean isJavaFun = true;
 System.out.println("boolean: " + isJavaFun);
-char
+```
+### 8. char
 
 Size: 16 bits
 
@@ -101,30 +107,33 @@ Single Unicode character
 
 Example:
 
-java
+```cs
 char letter = 'A';
 System.out.println("char: " + letter);
-Non-Primitive Data Types
-String
+```
+## B. Non-Primitive Data Types
+### 1. String
 
 A sequence of characters
 
 Example:
 
-java
+```
 String greeting = "Hello, World!";
 System.out.println("String: " + greeting);
-Array
+```
+### 2. Array
 
 A collection of elements of the same type
 
 Example:
 
-java
+```cs
 int[] numbers = {1, 2, 3, 4, 5};
 for (int num : numbers) {
     System.out.println("Array element: " + num);
 }
+```
 
 
 

@@ -293,7 +293,7 @@ if (age >= 18) {
     System.out.println("You are not an adult.");
 }
 ```
-#### if-else 
+### if-else 
 The if-else if-else ladder allows you to test multiple conditions.
 
 ```cs

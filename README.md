@@ -825,11 +825,11 @@ public class MapExample {
 }
 ```
 ## Summary of Key Differences
-### List: Allows duplicates || Maintains insertion order
+#### List: Allows duplicates || Maintains insertion order
 
-### Set: Does not allow duplicates || No guaranteed order (unless using LinkedHashSet or TreeSet)
+#### Set: Does not allow duplicates || No guaranteed order (unless using LinkedHashSet or TreeSet)
 
-### Map: Stores key-value pairs || Keys must be unique
+#### Map: Stores key-value pairs || Keys must be unique
 
 # File Handling
 ## Reading a File

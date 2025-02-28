@@ -621,21 +621,6 @@ public class Main {
     }
 }
 ```
-## 5. Exception Handling
-```cs
-public class Main {
-    public static void main(String[] args) {
-        try {
-            int[] numbers = {1, 2, 3};
-            System.out.println(numbers[5]); // ArrayIndexOutOfBoundsException
-        } catch (ArrayIndexOutOfBoundsException e) {
-            System.out.println("Exception caught: " + e.getMessage());
-        } finally {
-            System.out.println("This will always execute.");
-        }
-    }
-}
-```
 ## 6. File Handling
 ### Reading a File
 ```cs

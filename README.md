@@ -11,7 +11,8 @@ public class HelloWorld {
 }
 ```
 # Operators
-### 1. Arithmetic Operators: Used to perform basic arithmetic operations.
+### 1. Arithmetic Operators:
+Used to perform basic arithmetic operations.
 
 ```cs
 int a = 10;
@@ -22,7 +23,8 @@ System.out.println("Multiplication: " + (a * b)); // 50
 System.out.println("Division: " + (a / b)); // 2
 System.out.println("Modulus: " + (a % b)); // 0
 ```
-### 2. Relational Operators: Used to compare two values.
+### 2. Relational Operators:
+Used to compare two values.
 
 ```cs
 int a = 10;

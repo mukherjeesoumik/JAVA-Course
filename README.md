@@ -95,11 +95,7 @@ public class LongVariable {
 ## A. Primitive   
 ## B. Non-Primitive
 ## (A) Primitive Data Types 
-### 1. byte
- 
- Size: 8 bits
- 
- Range: -128 to 127
+### 1. byte || Size: 8 bits || Range: -128 to 127
 
 Example:
 

@@ -193,6 +193,37 @@ public class Main {
     }
 }
 ```
+### interfaces :
+```cs
+// Define an interface
+interface Animal {
+    void sound();
+}
+
+// Implement the interface in a class
+class Dog implements Animal {
+    public void sound() {
+        System.out.println("Woof");
+    }
+}
+
+class Cat implements Animal {
+    public void sound() {
+        System.out.println("Meow");
+    }
+}
+
+// Test the implementation
+public class InterfaceExample {
+    public static void main(String[] args) {
+        Animal myDog = new Dog();
+        Animal myCat = new Cat();
+        
+        myDog.sound();
+        myCat.sound();
+    }
+}
+```
 ## 4. Collections Framework
 ### ArrayList Example
 ```cs

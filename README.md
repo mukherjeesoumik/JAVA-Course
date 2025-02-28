@@ -1,7 +1,7 @@
 # JAVA Course for beginners
 Java is a versatile, object-oriented programming language widely used for building enterprise-scale applications, mobile apps (Android), web applications, and more. Below, I’ll provide a sort of "all-in-one" Java guide with examples covering basic syntax, sorting algorithms, and Object-Oriented Programming (OOP) concepts.
 
-## 1. Basic Java Syntax
+# Basic Java Syntax
 ### Hello World Program
 ```cs
 public class HelloWorld {

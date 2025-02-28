@@ -10,6 +10,86 @@ public class HelloWorld {
     }
 }
 ```
+# Variable
+
+##  1: Integer Variable
+```cs
+public class IntegerVariable {
+    public static void main(String[] args) {
+        int age = 25; // Declaring and initializing an integer variable
+        System.out.println("Age: " + age); // Output: Age: 25
+    }
+}
+```
+## 2: String Variable
+```cs
+public class StringVariable {
+    public static void main(String[] args) {
+        String name = "John Doe"; // Declaring and initializing a string variable
+        System.out.println("Name: " + name); // Output: Name: John Doe
+    }
+}
+```
+## 3: Boolean Variable
+```cs
+public class BooleanVariable {
+    public static void main(String[] args) {
+        boolean isJavaFun = true; // Declaring and initializing a boolean variable
+        System.out.println("Is Java fun? " + isJavaFun); // Output: Is Java fun? true
+    }
+}
+```
+## 4: Array Variable
+```cs
+public class ArrayVariable {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5}; // Declaring and initializing an array variable
+        System.out.print("Numbers: ");
+        for (int num : numbers) {
+            System.out.print(num + " "); // Output: Numbers: 1 2 3 4 5
+        }
+    }
+}
+```
+## 5: Double Variable
+```cs
+public class DoubleVariable {
+    public static void main(String[] args) {
+        double price = 19.99; // Declaring and initializing a double variable
+        System.out.println("Price: " + price); // Output: Price: 19.99
+    }
+}
+```
+## 6: Character Variable
+```cs
+public class CharVariable {
+    public static void main(String[] args) {
+        char grade = 'A'; // Declaring and initializing a character variable
+        System.out.println("Grade: " + grade); // Output: Grade: A
+    }
+}
+```
+## 7: Float Variable
+```cs
+public class FloatVariable {
+    public static void main(String[] args) {
+        float pi = 3.14f; // Declaring and initializing a float variable
+        System.out.println("Pi: " + pi); // Output: Pi: 3.14
+    }
+}
+```
+## 8: Long Variable
+```cs
+public class LongVariable {
+    public static void main(String[] args) {
+        long distance = 100000000L; // Declaring and initializing a long variable
+        System.out.println("Distance: " + distance); // Output: Distance: 100000000
+    }
+}
+
+```
+
+
 
 # Datatypes 
 ### A. Primitive

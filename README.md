@@ -325,7 +325,7 @@ public class Main {
     }
 }
 ```
-# Exceptions:
+# Exception Handling
 ## Types of Exceptions:
 
 ### 1. Checked Exceptions: 

@@ -16,7 +16,9 @@ public class HelloWorld {
 ### B. Non-Primitive
 ## A. Primitive Data Types and Their Sizes
  byte
+ 
  Size: 8 bits
+ 
  Range: -128 to 127
 
 Example:

@@ -339,15 +339,20 @@ These are serious problems that a reasonable application should not try to catch
 
 ## Key Components:
 
-### 1. try block: The code that might throw an exception is placed inside the try block.
+### 1. try block: 
+The code that might throw an exception is placed inside the try block.
 
-### 2. catch block: This block catches and handles the exception.
+### 2. catch block: 
+This block catches and handles the exception.
 
-### 3. finally block: This block executes regardless of whether an exception occurred or not. It's typically used for resource cleanup.
+### 3. finally block: 
+This block executes regardless of whether an exception occurred or not. It's typically used for resource cleanup.
 
-### 4. throw keyword: Used to explicitly throw an exception.
+### 4. throw keyword: 
+Used to explicitly throw an exception.
 
-### 5. throws keyword: Used in method signatures to declare the exceptions that a method can throw.
+### 5. throws keyword: 
+Used in method signatures to declare the exceptions that a method can throw.
 ## 1. try Block
 The try block contains the code that might throw an exception. Only the code that might throw an exception should be placed inside the try block.
 

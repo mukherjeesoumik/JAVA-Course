@@ -842,9 +842,9 @@ Map:
 Stores key-value pairs
 
 Keys must be unique
-```
-## 6. File Handling
-### Reading a File
+
+# File Handling
+## Reading a File
 ```cs
 import java.io.File;
 import java.util.Scanner;

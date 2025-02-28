@@ -62,7 +62,7 @@ a %= 2; // a = a % 2
 System.out.println("a %= 2: " + a); // 0
 ```
 ### 5. Increment and Decrement Operators: 
-\Used to increment or decrement the value of a variable.
+Used to increment or decrement the value of a variable.
 
 ```cs
 int a = 10;
@@ -73,6 +73,29 @@ System.out.println("Pre Increment: " + (++a)); // 12
 System.out.println("Post Decrement: " + (a--)); // 12
 System.out.println("After Post Decrement: " + a); // 11
 System.out.println("Pre Decrement: " + (--a)); // 10
+```
+### 6. Ternary Operator
+The ternary operator in Java is a shorthand for the if-else statement. It is also known as the conditional operator. It allows you to make decisions in a compact way. 
+```cs
+condition ? expression1 : expression2
+```
+If the condition is true, expression1 is executed. If the condition is false, expression2 is executed.
+
+Example
+Here is an example to illustrate the use of the ternary operator:
+
+```cs
+public class TernaryOperatorExample {
+    public static void main(String[] args) {
+        int a = 10;
+        int b = 20;
+        
+        // Using the ternary operator
+        int max = (a > b) ? a : b;
+        
+        System.out.println("The maximum value is: " + max);
+    }
+}
 ```
 ## if-else Statement
 The if-else statement allows you to execute a block of code based on a condition.

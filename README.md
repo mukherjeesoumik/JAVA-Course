@@ -15,7 +15,7 @@ public class HelloWorld {
 ### A. Primitive
 ### B. Non-Primitive
 ## A. Primitive Data Types and Their Sizes
- byte
+###  byte
  
  Size: 8 bits
  

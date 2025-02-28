@@ -12,12 +12,12 @@ public class HelloWorld {
 ```
 
 # Datatypes 
-### a. Primitive
-### b. Non-Primitive
-Primitive Data Types and Their Sizes
-#### byte
-#### Size: 8 bits
-#### Range: -128 to 127
+### A. Primitive
+### B. Non-Primitive
+## A. Primitive Data Types and Their Sizes
+### byte
+### Size: 8 bits
+### Range: -128 to 127
 
 Example:
 

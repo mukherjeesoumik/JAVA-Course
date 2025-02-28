@@ -92,7 +92,7 @@ public class LongVariable {
 
 
 # Datatypes 
-## A. Primitive  B. Non-Primitive
+## A. Primitive And  B. Non-Primitive
 ## (A) Primitive Data Types 
 ### 1. byte || Size: 8 bits || Range: -128 to 127
 

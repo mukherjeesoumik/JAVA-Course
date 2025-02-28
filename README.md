@@ -36,7 +36,8 @@ System.out.println("Less Than: " + (a < b)); // false
 System.out.println("Greater Than or Equal To: " + (a >= b)); // true
 System.out.println("Less Than or Equal To: " + (a <= b)); // false
 ```
-### 3. Logical Operators: Used to perform logical operations.
+### 3. Logical Operators: 
+Used to perform logical operations.
 
 ```cs
 boolean x = true;

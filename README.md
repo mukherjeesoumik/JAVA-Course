@@ -325,117 +325,132 @@ public class Main {
     }
 }
 ```
+# Exceptions:
+## Types of Exceptions:
 
-<img src="./Java Crash Course/Java Crash Course-001.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-002.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-003.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-004.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-005.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-006.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-007.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-008.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-009.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-010.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-011.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-012.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-013.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-014.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-015.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-016.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-017.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-018.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-019.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-020.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-021.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-022.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-023.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-024.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-025.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-026.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-027.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-028.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-029.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-030.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-031.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-032.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-033.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-034.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-035.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-036.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-037.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-038.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-039.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-040.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-041.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-042.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-043.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-044.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-045.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-046.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-047.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-048.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-049.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-050.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-051.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-052.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-053.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-054.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-055.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-056.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-057.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-058.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-059.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-060.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-061.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-062.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-063.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-064.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-065.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-066.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-067.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-068.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-069.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-070.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-071.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-072.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-073.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-074.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-075.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-076.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-077.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-078.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-079.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-080.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-081.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-082.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-083.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-084.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-085.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-086.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-087.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-088.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-089.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-090.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-091.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-092.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-093.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-094.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-095.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-096.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-097.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-098.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-099.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-100.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-101.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-102.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-103.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-104.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-105.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-106.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-107.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-108.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-109.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-110.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-111.png" width="1920" />
-<img src="./Java Crash Course/Java Crash Course-112.png" width="1920" />
+### 1. Checked Exceptions: 
+These are exceptions that are checked at compile-time. For example, IOException and SQLException.
+
+### 2. Unchecked Exceptions: 
+These are exceptions that are checked at runtime. For example, NullPointerException and ArithmeticException.
+
+### 3. Errors: 
+These are serious problems that a reasonable application should not try to catch. For example, OutOfMemoryError and StackOverflowError.
+
+## Key Components:
+
+### 1. try block: The code that might throw an exception is placed inside the try block.
+
+### 2. catch block: This block catches and handles the exception.
+
+### 3. finally block: This block executes regardless of whether an exception occurred or not. It's typically used for resource cleanup.
+
+### 4. throw keyword: Used to explicitly throw an exception.
+
+### 5. throws keyword: Used in method signatures to declare the exceptions that a method can throw.
+## 1. try Block
+The try block contains the code that might throw an exception. Only the code that might throw an exception should be placed inside the try block.
+
+```cs
+try {
+    // Code that may throw an exception
+} catch (ExceptionType e) {
+    // Code to handle the exception
+}
+```
+## 2. catch Block
+The catch block handles the exception that occurs in the try block. It can have multiple catch clauses to handle different types of exceptions.
+
+```cs
+try {
+    int[] numbers = {1, 2, 3};
+    System.out.println(numbers[5]); // This will throw an ArrayIndexOutOfBoundsException
+} catch (ArrayIndexOutOfBoundsException e) {
+    System.out.println("Array index is out of bounds!");
+} catch (Exception e) {
+    System.out.println("An exception occurred!");
+}
+```
+### 3. finally Block
+The finally block contains code that is executed regardless of whether an exception occurred or not. It’s commonly used for cleanup activities, like closing a file or releasing resources.
+
+```cs
+try {
+    int[] numbers = {1, 2, 3};
+    System.out.println(numbers[5]);
+} catch (ArrayIndexOutOfBoundsException e) {
+    System.out.println("Array index is out of bounds!");
+} finally {
+    System.out.println("This block is always executed.");
+}
+```
+### 4. throw Keyword
+The throw keyword is used to explicitly throw an exception. It is usually used when you want to indicate that something unexpected has happened.
+
+```cs
+public void checkAge(int age) {
+    if (age < 18) {
+        throw new IllegalArgumentException("Age must be 18 or older.");
+    }
+}
+```
+### 5. throws Keyword
+The throws keyword is used in method signatures to declare the exceptions that a method can throw. This informs the caller of the method that it needs to handle these exceptions.
+
+```cs
+public void readFile() throws IOException {
+    FileInputStream fis = new FileInputStream("file.txt");
+    int data;
+    while ((data = fis.read()) != -1) {
+        System.out.print((char) data);
+    }
+}
+```
+Comprehensive Example
+Here’s a complete example that includes all the components:
+```cs
+java
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+
+public class ExceptionHandlingExample {
+
+    public static void main(String[] args) {
+        try {
+            readFile("file.txt");
+        } catch (IOException e) {
+            System.out.println("An IOException occurred: " + e.getMessage());
+        }
+    }
+
+    public static void readFile(String fileName) throws IOException {
+        FileInputStream fis = null;
+        try {
+            fis = new FileInputStream(fileName);
+            int data;
+            while ((data = fis.read()) != -1) {
+                System.out.print((char) data);
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found: " + fileName);
+        } finally {
+            if (fis != null) {
+                try {
+                    fis.close();
+                } catch (IOException e) {
+                    System.out.println("Error closing the file.");
+                }
+            }
+        }
+    }
+}
+```
+Explanation:
+
+try block: Contains code that attempts to open and read a file.
+
+catch block: Handles FileNotFoundException if the file is not found.
+
+finally block: Ensures that the FileInputStream is closed, regardless of whether an exception occurred.
 

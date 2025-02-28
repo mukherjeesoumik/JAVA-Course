@@ -94,7 +94,7 @@ public class LongVariable {
 # Datatypes 
 ## A. Primitive   
 ## B. Non-Primitive
-## A. Primitive Data Types and Their Sizes
+## (A) Primitive Data Types 
 ### 1. byte
  
  Size: 8 bits
@@ -191,7 +191,7 @@ Example:
 char letter = 'A';
 System.out.println("char: " + letter);
 ```
-## B. Non-Primitive Data Types
+## (B) Non-Primitive Data Types
 ### 1. String
 
 A sequence of characters

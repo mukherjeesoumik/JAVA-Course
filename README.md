@@ -710,7 +710,7 @@ try {
     System.out.println("An exception occurred!");
 }
 ```
-### 3. finally Block
+## 3. finally Block
 The finally block contains code that is executed regardless of whether an exception occurred or not. It’s commonly used for cleanup activities, like closing a file or releasing resources.
 
 ```cs

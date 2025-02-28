@@ -760,35 +760,88 @@ public class InterfaceExample {
 }
 
 ```
-# 4. Collections Framework
-### ArrayList Example
+#  Collections Framework
+## 1. List
+Lists allow duplicate elements and maintain the order of insertion.
+
+Example using ArrayList:
+
 ```cs
 import java.util.ArrayList;
 
-public class Main {
+public class ListExample {
     public static void main(String[] args) {
-        ArrayList<String> fruits = new ArrayList<>();
-        fruits.add("Apple");
-        fruits.add("Banana");
-        fruits.add("Cherry");
+        ArrayList<String> list = new ArrayList<>();
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Apple");
 
-        System.out.println("Fruits: " + fruits);
+        for (String item : list) {
+            System.out.println(item);
+        }
     }
 }
 ```
-### HashMap Example
+## 2. Set
+Sets do not allow duplicate elements and do not guarantee any order.
+
+Example using HashSet:
+
+```cs
+import java.util.HashSet;
+
+public class SetExample {
+    public static void main(String[] args) {
+        HashSet<String> set = new HashSet<>();
+        set.add("Apple");
+        set.add("Banana");
+        set.add("Apple");
+
+        for (String item : set) {
+            System.out.println(item);
+        }
+    }
+}
+```
+## 3. Map
+Maps store key-value pairs. Keys must be unique, but values can be duplicated.
+
+Example using HashMap:
+
 ```cs
 import java.util.HashMap;
 
-public class Main {
+public class MapExample {
     public static void main(String[] args) {
-        HashMap<String, Integer> map = new HashMap<>();
-        map.put("Alice", 25);
-        map.put("Bob", 30);
+        HashMap<Integer, String> map = new HashMap<>();
+        map.put(1, "Apple");
+        map.put(2, "Banana");
+        map.put(1, "Cherry");
 
-        System.out.println("Bob's age: " + map.get("Bob")); // Output: Bob's age: 30
+        for (Map.Entry<Integer, String> entry : map.entrySet()) {
+            System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
+        }
     }
 }
+```
+## Summary of Key Differences
+List:
+
+Allows duplicates
+
+Maintains insertion order
+
+Set:
+
+Does not allow duplicates
+
+No guaranteed order (unless using LinkedHashSet or TreeSet)
+
+Map:
+
+Stores key-value pairs
+
+Keys must be unique
 ```
 ## 6. File Handling
 ### Reading a File

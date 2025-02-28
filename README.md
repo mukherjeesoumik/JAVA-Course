@@ -281,6 +281,44 @@ public class TernaryOperatorExample {
     }
 }
 ```
+
+### 7.1 Increment Operator (++)
+The increment operator adds one to the value of a variable.
+
+```cs
+public class Main {
+    public static void main(String[] args) {
+        int a = 5;
+        a++; // Post-increment: a is now 6
+        System.out.println(a); // Output: 6
+
+        int b = 5;
+        ++b; // Pre-increment: b is now 6
+        System.out.println(b); // Output: 6
+    }
+}
+```
+### 7.2 Decrement Operator (--)
+The decrement operator subtracts one from the value of a variable.
+
+```cs
+public class Main {
+    public static void main(String[] args) {
+        int x = 5;
+        x--; // Post-decrement: x is now 4
+        System.out.println(x); // Output: 4
+
+        int y = 5;
+        --y; // Pre-decrement: y is now 4
+        System.out.println(y); // Output: 4
+    }
+}
+```
+Post-Increment/Decrement (a++, x--): The value is used in the expression first, and then incremented or decremented.
+
+Pre-Increment/Decrement (++b, --y): The value is incremented or decremented first, and then used in the expression.
+
+
 ## if-else Statement
 The if-else statement allows you to execute a block of code based on a condition.
 
@@ -342,7 +380,12 @@ switch (day) {
         System.out.println("Invalid day");
         break;
 }
+
 ```
+
+
+
+
 ## 2. Sorting Algorithms in Java
 ### Bubble Sort
 ```cs

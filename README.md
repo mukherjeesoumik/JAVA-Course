@@ -92,8 +92,7 @@ public class LongVariable {
 
 
 # Datatypes 
-### A. Primitive
-### B. Non-Primitive
+### A. Primitive         B. Non-Primitive
 ## A. Primitive Data Types and Their Sizes
 ### 1. byte
  

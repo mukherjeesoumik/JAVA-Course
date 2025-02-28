@@ -195,34 +195,67 @@ public class Main {
 ```
 ### interfaces :
 ```cs
-// Define an interface
+// Define an interface named Animal
 interface Animal {
+    // This variable is implicitly public, static, and final
+    int LEGS = 4;
+
+    // This method is implicitly public and abstract
     void sound();
 }
 
-// Implement the interface in a class
-class Dog implements Animal {
+// Define an interface named Pet
+interface Pet {
+    // This method is implicitly public and abstract
+    void play();
+}
+
+// Implement both interfaces in a class named Dog
+class Dog implements Animal, Pet {
+    // Provide the implementation for the sound method
     public void sound() {
         System.out.println("Woof");
+        System.out.println("Dogs have " + LEGS + " legs.");
+    }
+
+    // Provide the implementation for the play method
+    public void play() {
+        System.out.println("The dog is playing.");
     }
 }
 
-class Cat implements Animal {
+// Implement both interfaces in a class named Cat
+class Cat implements Animal, Pet {
+    // Provide the implementation for the sound method
     public void sound() {
         System.out.println("Meow");
+        System.out.println("Cats have " + LEGS + " legs.");
+    }
+
+    // Provide the implementation for the play method
+    public void play() {
+        System.out.println("The cat is playing.");
     }
 }
 
-// Test the implementation
+// Class to test the implementation
 public class InterfaceExample {
     public static void main(String[] args) {
-        Animal myDog = new Dog();
-        Animal myCat = new Cat();
+        // Create an instance of Dog
+        Dog myDog = new Dog();
+        // Create an instance of Cat
+        Cat myCat = new Cat();
         
+        // Call the sound and play methods on Dog instance
         myDog.sound();
+        myDog.play();
+
+        // Call the sound and play methods on Cat instance
         myCat.sound();
+        myCat.play();
     }
 }
+
 ```
 ## 4. Collections Framework
 ### ArrayList Example

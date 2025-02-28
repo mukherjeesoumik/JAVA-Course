@@ -10,6 +10,131 @@ public class HelloWorld {
     }
 }
 ```
+# Operators
+### 1. Arithmetic Operators: Used to perform basic arithmetic operations.
+
+```cs
+int a = 10;
+int b = 5;
+System.out.println("Addition: " + (a + b)); // 15
+System.out.println("Subtraction: " + (a - b)); // 5
+System.out.println("Multiplication: " + (a * b)); // 50
+System.out.println("Division: " + (a / b)); // 2
+System.out.println("Modulus: " + (a % b)); // 0
+```
+### 2. Relational Operators: Used to compare two values.
+
+```cs
+int a = 10;
+int b = 5;
+System.out.println("Equal: " + (a == b)); // false
+System.out.println("Not Equal: " + (a != b)); // true
+System.out.println("Greater Than: " + (a > b)); // true
+System.out.println("Less Than: " + (a < b)); // false
+System.out.println("Greater Than or Equal To: " + (a >= b)); // true
+System.out.println("Less Than or Equal To: " + (a <= b)); // false
+```
+### 3. Logical Operators: Used to perform logical operations.
+
+```cs
+boolean x = true;
+boolean y = false;
+System.out.println("AND: " + (x && y)); // false
+System.out.println("OR: " + (x || y)); // true
+System.out.println("NOT: " + (!x)); // false
+```
+### 4. Assignment Operators: 
+Used to assign values to variables.
+
+```cs
+int a = 10;
+a += 5; // a = a + 5
+System.out.println("a += 5: " + a); // 15
+a -= 3; // a = a - 3
+System.out.println("a -= 3: " + a); // 12
+a *= 2; // a = a * 2
+System.out.println("a *= 2: " + a); // 24
+a /= 4; // a = a / 4
+System.out.println("a /= 4: " + a); // 6
+a %= 2; // a = a % 2
+System.out.println("a %= 2: " + a); // 0
+```
+### 5. Increment and Decrement Operators: 
+\Used to increment or decrement the value of a variable.
+
+```cs
+int a = 10;
+System.out.println("Original Value: " + a); // 10
+System.out.println("Post Increment: " + (a++)); // 10
+System.out.println("After Post Increment: " + a); // 11
+System.out.println("Pre Increment: " + (++a)); // 12
+System.out.println("Post Decrement: " + (a--)); // 12
+System.out.println("After Post Decrement: " + a); // 11
+System.out.println("Pre Decrement: " + (--a)); // 10
+```
+## if-else Statement
+The if-else statement allows you to execute a block of code based on a condition.
+
+```cs
+int age = 18;
+
+if (age >= 18) {
+    System.out.println("You are an adult.");
+} else {
+    System.out.println("You are not an adult.");
+}
+```
+#### if-else 
+The if-else if-else ladder allows you to test multiple conditions.
+
+```cs
+int score = 75;
+
+if (score >= 90) {
+    System.out.println("Grade: A");
+} else if (score >= 80) {
+    System.out.println("Grade: B");
+} else if (score >= 70) {
+    System.out.println("Grade: C");
+} else if (score >= 60) {
+    System.out.println("Grade: D");
+} else {
+    System.out.println("Grade: F");
+}
+```
+## switch Statement
+The switch statement allows you to execute a block of code based on the value of a variable.
+
+```cs
+int day = 3;
+
+switch (day) {
+    case 1:
+        System.out.println("Monday");
+        break;
+    case 2:
+        System.out.println("Tuesday");
+        break;
+    case 3:
+        System.out.println("Wednesday");
+        break;
+    case 4:
+        System.out.println("Thursday");
+        break;
+    case 5:
+        System.out.println("Friday");
+        break;
+    case 6:
+        System.out.println("Saturday");
+        break;
+    case 7:
+        System.out.println("Sunday");
+        break;
+    default:
+        System.out.println("Invalid day");
+        break;
+}
+```
 ## 2. Sorting Algorithms in Java
 ### Bubble Sort
 ```cs

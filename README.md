@@ -103,11 +103,7 @@ Example:
 byte b = 100;
 System.out.println("byte: " + b);
 ```
-### 2. short
-
- Size: 16 bits
-
- Range: -32,768 to 32,767
+### 2. short || Size: 16 bits || Range: -32,768 to 32,767
 
 Example:
 
@@ -115,11 +111,7 @@ Example:
 short s = 10000;
 System.out.println("short: " + s);
 ```
-### 3. int
-
-Size: 32 bits
-
-Range: -2^31 to 2^31-1
+### 3. int || Size: 32 bits || Range: -2^31 to 2^31-1
 
 Example:
 
@@ -127,11 +119,7 @@ Example:
 int i = 100000;
 System.out.println("int: " + i);
 ```
-### 4. long
-
-Size: 64 bits
-
-Range: -2^63 to 2^63-1
+### 4. long || Size: 64 bits || Range: -2^63 to 2^63-1
 
 Example:
 
@@ -139,11 +127,7 @@ Example:
 long l = 100000L;
 System.out.println("long: " + l);
 ```
-### 5. float
-
-Size: 32 bits
-
-Single-precision floating point
+### 5. float || Size: 32 bits || Single-precision floating point
 
 Example:
 
@@ -151,11 +135,7 @@ Example:
 float f = 5.75f;
 System.out.println("float: " + f);
 ```
-### 6. double
-
-Size: 64 bits
-
-Double-precision floating point
+### 6. double || Size: 64 bits || Double-precision floating point
 
 Example:
 
@@ -163,11 +143,7 @@ Example:
 double d = 19.99;
 System.out.println("double: " + d);
 ```
-### 7. boolean
-
-Size: Varies (depends on JVM implementation)
-
-Values: true or false
+### 7. boolean || Size: Varies (depends on JVM implementation) || Values: true or false
 
 Example:
 

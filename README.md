@@ -1,19 +1,18 @@
 # JAVA Course for beginners
 Java is a versatile, object-oriented programming language widely used for building enterprise-scale applications, mobile apps (Android), web applications, and more. Below, I’ll provide a sort of "all-in-one" Java guide with examples covering basic syntax, sorting algorithms, and Object-Oriented Programming (OOP) concepts.
 
-1. Basic Java Syntax
+## 1. Basic Java Syntax
 Hello World Program
-java
-Copy
+```cs
 public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
     }
 }
-2. Sorting Algorithms in Java
+```
+## 2. Sorting Algorithms in Java
 Bubble Sort
-java
-Copy
+```cs
 public class BubbleSort {
     public static void bubbleSort(int[] arr) {
         int n = arr.length;
@@ -38,9 +37,9 @@ public class BubbleSort {
         }
     }
 }
+```
 Quick Sort
-java
-Copy
+```cs
 public class QuickSort {
     public static void quickSort(int[] arr, int low, int high) {
         if (low < high) {
@@ -78,10 +77,10 @@ public class QuickSort {
         }
     }
 }
-3. Object-Oriented Programming (OOP) Concepts
+```
+## 3. Object-Oriented Programming (OOP) Concepts
 Classes and Objects
-java
-Copy
+```cs
 class Dog {
     // Fields (attributes)
     String name;
@@ -105,9 +104,9 @@ public class Main {
         myDog.bark(); // Output: Buddy says: Woof!
     }
 }
-Inheritance
-java
-Copy
+```
+### Inheritance
+```cs
 class Animal {
     void eat() {
         System.out.println("This animal eats food.");
@@ -127,9 +126,9 @@ public class Main {
         myCat.meow(); // Specific to Cat
     }
 }
-Polymorphism (Method Overriding)
-java
-Copy
+```
+### Polymorphism (Method Overriding)
+```cs
 class Animal {
     void sound() {
         System.out.println("Animal makes a sound");
@@ -149,9 +148,9 @@ public class Main {
         myAnimal.sound(); // Output: Dog barks
     }
 }
-Encapsulation
-java
-Copy
+```
+### Encapsulation
+```cs
 class Person {
     private String name; // Private field
 
@@ -173,9 +172,9 @@ public class Main {
         System.out.println("Name: " + person.getName()); // Output: Name: John
     }
 }
-Abstraction (Using Abstract Class)
-java
-Copy
+```
+### Abstraction (Using Abstract Class)
+```cs
 abstract class Shape {
     abstract void draw(); // Abstract method
 }
@@ -193,10 +192,10 @@ public class Main {
         myShape.draw(); // Output: Drawing a Circle
     }
 }
-4. Collections Framework
-ArrayList Example
-java
-Copy
+```
+## 4. Collections Framework
+### ArrayList Example
+```cs
 import java.util.ArrayList;
 
 public class Main {
@@ -209,9 +208,9 @@ public class Main {
         System.out.println("Fruits: " + fruits);
     }
 }
-HashMap Example
-java
-Copy
+```
+### HashMap Example
+```cs
 import java.util.HashMap;
 
 public class Main {
@@ -223,9 +222,9 @@ public class Main {
         System.out.println("Bob's age: " + map.get("Bob")); // Output: Bob's age: 30
     }
 }
-5. Exception Handling
-java
-Copy
+```
+## 5. Exception Handling
+```cs
 public class Main {
     public static void main(String[] args) {
         try {
@@ -238,10 +237,10 @@ public class Main {
         }
     }
 }
-6. File Handling
-Reading a File
-java
-Copy
+```
+## 6. File Handling
+### Reading a File
+```cs
 import java.io.File;
 import java.util.Scanner;
 
@@ -261,6 +260,7 @@ public class Main {
         }
     }
 }
+```
 
 <img src="./Java Crash Course/Java Crash Course-001.png" width="1920" />
 <img src="./Java Crash Course/Java Crash Course-002.png" width="1920" />

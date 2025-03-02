@@ -4,7 +4,11 @@ Java is a versatile, object-oriented programming language widely used for buildi
 # Table of Contents
 
 1. [ Basic Java Syntax](#Basic-Java-Syntax)
-2. [My second title](#my-second-title)
+2. [Variable](#Variable)
+3. [Datatypes](#Datatypes)
+4. [Operators](#Operators)
+5. [if-else Statement](#if-else-Statement)
+6. [Sorting Algorithms in Java](#Sorting-Algorithms-in-Java)
 
 # Basic Java Syntax
 ### Hello World Program
@@ -390,7 +394,7 @@ switch (day) {
 
 
 
-## 2. Sorting Algorithms in Java
+# Sorting Algorithms in Java
 ### Bubble Sort
 ```cs
 public class BubbleSort {

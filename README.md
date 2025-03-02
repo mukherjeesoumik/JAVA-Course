@@ -3,7 +3,7 @@ Java is a versatile, object-oriented programming language widely used for buildi
 
 # Table of Contents
 
-1. [ Basic Java Syntax](#Basic Java Syntax)
+1. [ Basic Java Syntax](#Basic-Java-Syntax)
 2. [My second title](#my-second-title)
 
 # Basic Java Syntax

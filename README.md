@@ -1040,6 +1040,19 @@ public class Main {
     }
 }
 ```
+OutPut
+```cs
+12 Value 0
+11 Value 0
+12 Value 1
+11 Value 1
+12 Value 2
+11 Value 2
+12 Value 3
+11 Value 3
+12 Value 4
+11 Value 4
+```
 In this example, we define a class MyThread that extends the Thread class and overrides the run method. The main method creates two instances of MyThread and starts them, resulting in two threads running concurrently.
 
 ## 1. What is a Thread in Java?

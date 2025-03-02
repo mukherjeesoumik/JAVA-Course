@@ -1015,3 +1015,219 @@ public class Main {
 }
 ```
 
+
+# Multitnreading
+
+Multithreading in Java is a powerful feature that allows you to perform multiple tasks concurrently within a single program. This can significantly improve the performance of your application by making better use of CPU resources. Java provides built-in support for multithreading through the java.lang.Thread class and the java.util.concurrent package.
+
+Here's a basic example to demonstrate multithreading in Java:
+
+```cs
+class MyThread extends Thread {
+    public void run() {
+        for (int i = 0; i < 5; i++) {
+            System.out.println(Thread.currentThread().getId() + " Value " + i);
+        }
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        MyThread t1 = new MyThread();
+        MyThread t2 = new MyThread();
+        t1.start();
+        t2.start();
+    }
+}
+```
+In this example, we define a class MyThread that extends the Thread class and overrides the run method. The main method creates two instances of MyThread and starts them, resulting in two threads running concurrently.
+
+## 1. What is a Thread in Java?
+Explanation: A thread is a lightweight process and the smallest unit of execution within a program. Java provides built-in support for multithreading, enabling concurrent execution of two or more parts of a program for maximum utilization of CPU.
+
+Example:
+
+```cs
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread is running.");
+    }
+
+    public static void main(String[] args) {
+        MyThread t1 = new MyThread();
+        t1.start();
+    }
+}
+```
+
+## 2. What is the difference between Thread and Runnable?
+Explanation: The Thread class provides the ability to create a thread by extending it, while the Runnable interface is used to implement threads by passing an instance of a class that implements Runnable to a Thread object.
+
+Example:
+
+```cs
+// Using Thread class
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread is running.");
+    }
+}
+
+// Using Runnable interface
+class MyRunnable implements Runnable {
+    public void run() {
+        System.out.println("Thread is running.");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        MyThread t1 = new MyThread();
+        t1.start();
+
+        Thread t2 = new Thread(new MyRunnable());
+        t2.start();
+    }
+}
+```
+## 3. What is synchronization in Java?
+Explanation: Synchronization is the process of controlling the access of multiple threads to shared resources. It prevents thread interference and memory consistency errors.
+
+Example:
+
+```cs
+class Counter {
+    private int count = 0;
+
+    // Synchronized method
+    public synchronized void increment() {
+        count++;
+    }
+
+    public int getCount() {
+        return count;
+    }
+}
+
+public class Test {
+    public static void main(String[] args) throws InterruptedException {
+        Counter counter = new Counter();
+
+        Thread t1 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                counter.increment();
+            }
+        });
+
+        Thread t2 = new Thread(() -> {
+            for (int i = 0; i < 1000; i++) {
+                counter.increment();
+            }
+        });
+
+        t1.start();
+        t2.start();
+
+        t1.join();
+        t2.join();
+
+        System.out.println("Count: " + counter.getCount());
+    }
+}
+```
+## 4. What is a deadlock and how can it be avoided?
+Explanation: A deadlock is a situation where two or more threads are blocked forever, waiting for each other. Deadlock can be avoided by careful design of resource allocation and avoiding circular dependencies.
+
+Example:
+
+```cs
+class A {
+    synchronized void methodA(B b) {
+        System.out.println("Thread 1 starts execution of methodA()");
+        try { Thread.sleep(100); } catch (InterruptedException e) {}
+
+        System.out.println("Thread 1 trying to call B's methodB()");
+        b.methodB();
+    }
+
+    synchronized void methodB() {
+        System.out.println("Inside methodA() of A");
+    }
+}
+
+class B {
+    synchronized void methodA(A a) {
+        System.out.println("Thread 2 starts execution of methodA()");
+        try { Thread.sleep(100); } catch (InterruptedException e) {}
+
+        System.out.println("Thread 2 trying to call A's methodB()");
+        a.methodB();
+    }
+
+    synchronized void methodB() {
+        System.out.println("Inside methodB() of B");
+    }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        final A a = new A();
+        final B b = new B();
+
+        Thread t1 = new Thread(() -> a.methodA(b));
+        Thread t2 = new Thread(() -> b.methodA(a));
+
+        t1.start();
+        t2.start();
+    }
+}
+```
+## 5. What is Thread Pool and how to create one in Java?
+Explanation: A Thread Pool is a pool of worker threads that are managed and maintained by a framework or service. Using a thread pool can improve the performance of a program by reducing the overhead of creating and destroying threads.
+
+Example:
+
+```cs
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+
+public class Test {
+    public static void main(String[] args) {
+        ExecutorService executor = Executors.newFixedThreadPool(5);
+
+        for (int i = 0; i < 10; i++) {
+            Runnable worker = new WorkerThread("" + i);
+            executor.execute(worker);
+        }
+
+        executor.shutdown();
+        while (!executor.isTerminated()) {}
+
+        System.out.println("Finished all threads");
+    }
+}
+
+class WorkerThread implements Runnable {
+    private String command;
+
+    public WorkerThread(String s) {
+        this.command = s;
+    }
+
+    @Override
+    public void run() {
+        System.out.println(Thread.currentThread().getName() + " Start. Command = " + command);
+        processCommand();
+        System.out.println(Thread.currentThread().getName() + " End.");
+    }
+
+    private void processCommand() {
+        try { Thread.sleep(5000); } catch (InterruptedException e) { e.printStackTrace(); }
+    }
+
+    @Override
+    public String toString() {
+        return this.command;
+    }
+}
+```

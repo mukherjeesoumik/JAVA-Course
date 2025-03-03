@@ -1,7 +1,7 @@
 # JAVA Course for beginners
 Java is a versatile, object-oriented programming language widely used for building enterprise-scale applications, mobile apps (Android), web applications, and more. Below, I’ll provide a sort of "all-in-one" Java guide with examples covering basic syntax, sorting algorithms, and Object-Oriented Programming (OOP) concepts.
 
-# Table of Contents
+# Table of Contents (JAVA)
 
 1. [ Basic Java Syntax](#Basic-Java-Syntax)
 2. [Variable](#Variable)
@@ -10,8 +10,10 @@ Java is a versatile, object-oriented programming language widely used for buildi
 5. [if-else Statement](#if-else-Statement)
 6. [Sorting Algorithms in Java](#Sorting-Algorithms-in-Java)
 7. [Object-Oriented Programming (OOP) Concepts](#Object-Oriented-Programming-Concepts)
-7. [Collections Framework](#Collections-Framework)
-7. [Object-Oriented Programming (OOP) Concepts](#Object-Oriented-Programming-Concepts)
+8. [Collections Framework](#Collections-Framework)
+9. [File Handling](#File-Handling)
+10. [Exception Handling](#Exception-Handling)
+11. [ Multitnreading](#Multitnreading)
 
 # Basic Java Syntax
 ### Hello World Program

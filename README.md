@@ -495,6 +495,45 @@ public class Main {
 }
 ```
 ## Inheritance
+Inheritance in Java is a mechanism that allows one class (the child or subclass) to inherit the fields and methods of another class (the parent or superclass). This helps in code reusability and the creation of a hierarchical classification. Inheritance represents the "is-a" relationship, meaning a subclass is a type of the superclass.
+```cs
+public class Demo {
+    public static void main(String[]args){
+        Animal om = new Cat();
+        Animal om1 = new Dog();
+        om.New();
+        om1.New();
+    }
+}
+
+class Animal {
+    int age;
+    String name;
+
+    void New(){
+        System.out.println(age + name );
+    }
+}
+
+class Dog extends Animal {
+    @Override
+    void New(){
+        age = 20;
+        name = "Jui";
+        System.out.println(age + name);
+    }
+}
+
+class Cat extends Animal {
+    @Override
+    void New(){
+        age = 22;
+        name = "Soumik";
+        int id = 202;
+        System.out.println(age + name + id);
+    }
+}
+```
 ### 1. Single Inheritance
 A single class inherits from one superclass.
 

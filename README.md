@@ -1086,7 +1086,39 @@ class MyThread extends Thread {
     }
 }
 ```
+## life cycle of a thread
+The life cycle of a thread in Java includes several stages, often referred to as states. Here's a concise summary of each state:
 
+ New: The thread is created but not yet started. It's in the "new" state.
+
+ Runnable: After calling the start() method, the thread moves to the "runnable" state. It is ready to run but may be waiting for CPU resources.
+
+ Blocked/Waiting: The thread might move to this state if it's waiting for a monitor lock or another thread to complete its task. There are specific states within this category:
+
+Blocked: Waiting to acquire a lock.
+
+Waiting: Waiting indefinitely for another thread to perform a particular action.
+
+Timed Waiting: Waiting for another thread to perform an action for a specified period.
+
+Timed Waiting: Similar to "waiting," but the thread remains in this state for a specified amount of time before automatically transitioning.
+
+Terminated: Once the thread's run() method completes, it transitions to the "terminated" state, indicating that the thread's execution has finished.
+
+Here's a simple code example demonstrating a basic thread in Java:
+
+```cs
+class MyThread extends Thread {
+    public void run() {
+        System.out.println("Thread is running...");
+    }
+
+    public static void main(String[] args) {
+        MyThread t1 = new MyThread();
+        t1.start();  // Moves the thread to the runnable state
+    }
+}
+```
 ## 2. What is the difference between Thread and Runnable?
 Explanation: The Thread class provides the ability to create a thread by extending it, while the Runnable interface is used to implement threads by passing an instance of a class that implements Runnable to a Thread object.
 

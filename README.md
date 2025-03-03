@@ -642,7 +642,7 @@ public class TestOverloading {
         System.out.println(Adder.add(10.5, 20.5));  // Output: 31.0
     }
 }
-
+```
 ## 2. Runtime Polymorphism ( Method Overriding )
 This occurs when a subclass provides a specific implementation for a method that is already defined in its superclass. It's a way to achieve runtime polymorphism.
 
@@ -665,7 +665,6 @@ public class TestPolymorphism {
         myAnimal.sound();  // Output: Dog barks
     }
 }
-```
 
 ```
 ## Encapsulation

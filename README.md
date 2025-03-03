@@ -9,7 +9,7 @@ Java is a versatile, object-oriented programming language widely used for buildi
 4. [Operators](#Operators)
 5. [if-else Statement](#if-else-Statement)
 6. [Sorting Algorithms in Java](#Sorting-Algorithms-in-Java)
-7. [Object-Oriented Programming (OOP) Concepts](#Object-Oriented-Programming-(OOP)-Concepts)
+7. [Object-Oriented Programming (OOP) Concepts](#Object-Oriented-Programming-Concepts)
 
 # Basic Java Syntax
 ### Hello World Program
@@ -463,7 +463,7 @@ public class QuickSort {
     }
 }
 ```
-# Object-Oriented Programming (OOP) Concepts
+# Object-Oriented Programming Concepts
 ## Classes and Objects
 ```cs
 class Dog {

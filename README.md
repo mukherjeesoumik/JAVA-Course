@@ -1341,3 +1341,664 @@ class WorkerThread implements Runnable {
     }
 }
 ```
+
+✅ 1. Java Fundamentals
+1.	What is Java?
+2.	What are the features of Java?
+3.	Explain JVM, JRE, and JDK.
+4.	What is the difference between JDK and JRE?
+5.	What is bytecode in Java?
+6.	Why is Java platform-independent?
+7.	What are the different types of memory areas allocated by JVM?
+8.	Explain the Java program execution process.
+9.	What is the main() method in Java?
+10.	Why is Java not 100% object-oriented?
+________________________________________
+✅ 2. Data Types and Variables
+11.	What are the different data types in Java?
+12.	What is the difference between primitive and non-primitive data types?
+13.	What is type casting? Explain implicit and explicit casting.
+14.	What is a variable in Java?
+15.	What are static variables and instance variables?
+16.	What are final variables?
+________________________________________
+✅ 3. Operators
+17.	What are the types of operators in Java?
+18.	What is the difference between == and .equals()?
+19.	What is the difference between && and &?
+20.	What is the instanceof operator?
+________________________________________
+✅ 4. Control Statements
+21.	What are control flow statements in Java?
+22.	Difference between if and switch statement?
+23.	What are loop control structures in Java?
+24.	What is the difference between break and continue?
+________________________________________
+✅ 5. Arrays and Strings
+25.	How are arrays declared and initialized in Java?
+26.	What are the types of arrays in Java?
+27.	What is the difference between Array and ArrayList?
+28.	What is a String in Java?
+29.	Difference between String, StringBuffer, and StringBuilder?
+30.	Why are Strings immutable in Java?
+31.	How does String intern pool work?
+________________________________________
+✅ 6. Methods and Constructors
+32.	What is a method in Java?
+33.	What is method overloading?
+34.	What is a constructor?
+35.	Difference between constructor and method?
+36.	What is constructor overloading?
+37.	What is the use of the ‘this’ keyword?
+________________________________________
+✅ 7. Object-Oriented Programming (OOP)
+38.	What are the four pillars of OOP?
+39.	Explain the concept of inheritance.
+40.	What is method overriding?
+41.	What is the use of the ‘super’ keyword?
+42.	Difference between overloading and overriding.
+43.	What is abstraction?
+44.	What is an abstract class?
+45.	What is an interface?
+46.	What is polymorphism?
+47.	What is encapsulation?
+48.	Can an interface extend another interface?
+49.	Can a class implement multiple interfaces?
+50.	Difference between interface and abstract class?
+________________________________________
+✅ 8. Access Modifiers
+51.	What are access modifiers in Java?
+52.	Explain public, private, protected, and default.
+53.	What is the use of private constructors?
+________________________________________
+✅ 9. Packages and Imports
+54.	What is a package in Java?
+55.	How do you create and import packages?
+56.	Difference between import java.* and import java.util.*?
+________________________________________
+✅ 10. Exception Handling
+57.	What is exception handling in Java?
+58.	What is the difference between checked and unchecked exceptions?
+59.	What are try, catch, finally, throw, and throws?
+60.	What is the difference between throw and throws?
+61.	What is a custom exception?
+________________________________________
+✅ 11. Wrapper Classes and Autoboxing
+62.	What are wrapper classes?
+63.	What is autoboxing and unboxing?
+64.	Why do we need wrapper classes?
+________________________________________
+✅ 12. Static and Final Keywords
+65.	What is a static method?
+66.	Can we override static methods?
+67.	What is a final class?
+68.	Can a final method be overridden?
+69.	What is the difference between final, finally, and finalize()?
+________________________________________
+✅ 13. Inner Classes
+70.	What are inner classes in Java?
+71.	What is a static nested class?
+72.	What is a local inner class?
+73.	What is an anonymous inner class?
+________________________________________
+✅ 14. Miscellaneous
+74.	What is the default value of local variables?
+75.	What is the difference between == and equals()?
+76.	What is the difference between heap and stack memory?
+77.	What is garbage collection in Java?
+78.	How does garbage collector work?
+79.	What are transient and volatile keywords?
+80.	Can we override the main method?
+81.	What is System.out.println()?
+82.	What is the difference between public static void main and static public void main?
+83.	Can we declare a class as static?
+84.	What is the default constructor?
+________________________________________
+✅ 1. Basic OOP Principles
+1.	What is Object-Oriented Programming?
+2.	What are the four main principles of OOP?
+3.	What is an object in Java?
+4.	What is a class in Java?
+5.	Difference between a class and an object?
+6.	What is the purpose of OOP?
+________________________________________
+✅ 2. Encapsulation
+7.	What is encapsulation?
+8.	How is encapsulation implemented in Java?
+9.	What are the advantages of encapsulation?
+10.	Can you give a real-world example of encapsulation?
+________________________________________
+✅ 3. Abstraction
+11.	What is abstraction?
+12.	How do you achieve abstraction in Java?
+13.	Difference between abstract class and interface?
+14.	What is an abstract method?
+15.	Can we create an object of an abstract class?
+16.	Can abstract classes have constructors?
+17.	Can abstract classes have non-abstract methods?
+18.	Why do we need abstraction?
+19.	Give real-life examples of abstraction in Java.
+________________________________________
+✅ 4. Inheritance
+20.	What is inheritance in Java?
+21.	What are the types of inheritance supported in Java?
+22.	Why doesn’t Java support multiple inheritance with classes?
+23.	What is the ‘super’ keyword in Java?
+24.	How do you call the parent class constructor?
+25.	Can constructors be inherited?
+26.	What is the difference between IS-A and HAS-A relationships?
+27.	What is hierarchical inheritance?
+28.	What are the benefits of inheritance?
+________________________________________
+✅ 5. Polymorphism
+29.	What is polymorphism?
+30.	What is method overloading?
+31.	What is method overriding?
+32.	Difference between compile-time and runtime polymorphism?
+33.	Can we override static methods?
+34.	Can we override private methods?
+35.	What is covariant return type?
+36.	What is dynamic method dispatch?
+37.	What is the role of polymorphism in OOP design?
+________________________________________
+✅ 6. Interface and Abstract Class
+38.	What is an interface in Java?
+39.	What is the difference between interface and abstract class?
+40.	Can an interface extend another interface?
+41.	Can a class implement multiple interfaces?
+42.	What happens if two interfaces have the same method signature?
+43.	What is a marker interface?
+44.	What is functional interface (Java 8)?
+45.	Can an interface have static methods?
+46.	Can an interface have private methods (Java 9+)?
+________________________________________
+✅ 7. Class Members & Access Control
+47.	What is the difference between static and instance methods?
+48.	What is the use of ‘this’ keyword?
+49.	What is the use of ‘super’ keyword?
+50.	What is method hiding in Java?
+51.	Can we override a final method?
+52.	What are access modifiers and how do they relate to OOP?
+53.	Difference between public, private, protected, and default access modifiers?
+________________________________________
+✅ 8. Constructors
+54.	What is a constructor?
+55.	What is constructor overloading?
+56.	Can constructors be overridden?
+57.	Can an abstract class have a constructor?
+58.	What is a copy constructor in Java?
+________________________________________
+✅ 9. Object Class and Overriding Methods
+59.	What is the Object class in Java?
+60.	Which methods are defined in Object class?
+61.	Why should you override toString(), equals(), and hashCode() methods?
+62.	What is the contract between equals() and hashCode()?
+63.	What is the difference between == and .equals()?
+________________________________________
+✅ 10. Final, Static, and Other Keywords
+64.	What is a final class?
+65.	Can we inherit a final class?
+66.	What is the difference between final, finally, and finalize()?
+67.	Can we override a static method?
+68.	What is static binding and dynamic binding?
+________________________________________
+✅ 11. Design and Relationships
+69.	What is association in OOP?
+70.	What is aggregation vs composition?
+71.	What is dependency in OOP?
+72.	What are coupling and cohesion?
+73.	What is object cloning? How is it achieved in Java?
+74.	What is deep copy vs shallow copy?
+________________________________________
+✅ 12. Advanced OOP Design Topics
+75.	What is the SOLID principle?
+76.	What is the Liskov Substitution Principle?
+77.	What is the Open/Closed Principle?
+78.	How do interfaces promote loose coupling?
+79.	What is the importance of design patterns in OOP?
+80.	What is a singleton class?
+81.	How is immutability implemented in Java?
+82.	How does Java handle memory for objects?
+________________________________________
+✅ 1. Basics of Multithreading
+1.	What is multithreading in Java?
+2.	What is the difference between process and thread?
+3.	What are the advantages of multithreading?
+4.	What is the lifecycle of a thread?
+5.	What is the difference between multitasking and multithreading?
+6.	What is the difference between user thread and daemon thread?
+7.	How do you create a thread in Java?
+8.	Difference between extending Thread and implementing Runnable?
+9.	Can we start a thread twice?
+10.	What happens if we call run() method directly instead of start()?
+________________________________________
+✅ 2. Thread Lifecycle & Methods
+11.	What are the different states of a thread?
+12.	What does the start() method do?
+13.	What is the use of yield() method?
+14.	What is the sleep() method? Can a thread sleep forever?
+15.	What is the join() method? How is it used?
+16.	What happens if one thread calls join() on another?
+17.	What is the difference between sleep() and wait()?
+18.	What is the difference between notify() and notifyAll()?
+19.	What is thread priority?
+20.	What is the default priority of a thread?
+21.	Can thread priority guarantee execution order?
+________________________________________
+✅ 3. Synchronization
+22.	What is synchronization in Java?
+23.	What is a critical section?
+24.	How do you achieve synchronization in Java?
+25.	What is the synchronized keyword?
+26.	What is the difference between synchronized method and synchronized block?
+27.	Can we synchronize a static method?
+28.	What is object-level lock and class-level lock?
+29.	What is the drawback of synchronization?
+30.	How does Java avoid race conditions?
+________________________________________
+✅ 4. Concurrency Issues
+31.	What is a race condition?
+32.	What is thread interference?
+33.	What is deadlock?
+34.	How to prevent deadlock in Java?
+35.	What is livelock?
+36.	What is starvation?
+37.	What is thread-safe code?
+38.	What is reentrant synchronization?
+________________________________________
+✅ 5. Daemon Threads
+39.	What is a daemon thread?
+40.	How do you create a daemon thread?
+41.	What is the difference between daemon thread and user thread?
+42.	Can you make the main thread a daemon thread?
+________________________________________
+✅ 6. Inter-thread Communication
+43.	What is inter-thread communication?
+44.	What are the methods used for inter-thread communication?
+45.	Why wait(), notify(), and notifyAll() must be called in synchronized blocks?
+46.	What is the purpose of wait() method?
+47.	Can we call wait() outside synchronized block?
+________________________________________
+✅ 7. Java Memory Model & Volatile
+48.	What is the Java Memory Model (JMM)?
+49.	What is the use of the volatile keyword?
+50.	How is volatile different from synchronized?
+51.	Is volatile enough to make a class thread-safe?
+________________________________________
+✅ 8. Thread Pools and Executors
+52.	What is a thread pool in Java?
+53.	What is the Executor framework?
+54.	What are the advantages of using thread pools?
+55.	What is the difference between Executor, ExecutorService, and ScheduledExecutorService?
+56.	What are Callable and Future interfaces?
+57.	How do you shut down an executor?
+________________________________________
+✅ 9. Advanced Concurrency (java.util.concurrent)
+58.	What is the ConcurrentHashMap?
+59.	What is CopyOnWriteArrayList?
+60.	What is CountDownLatch?
+61.	What is CyclicBarrier?
+62.	What is Semaphore?
+63.	What is ReentrantLock?
+64.	Difference between ReentrantLock and synchronized?
+65.	What is ReadWriteLock?
+66.	What is BlockingQueue?
+67.	What is ThreadLocal?
+________________________________________
+✅ 10. Miscellaneous and Best Practices
+68.	Can a thread be restarted once it has completed?
+69.	What is the difference between ThreadGroup and ExecutorService?
+70.	Can we forcibly stop a thread?
+71.	Why is stop(), suspend(), and resume() deprecated?
+72.	How to implement thread-safe singleton in Java?
+73.	What are some best practices for writing multithreaded code?
+74.	How do you test multithreaded applications?
+________________________________________
+✅ 1. Basics of Collections Framework
+1.	What is the Java Collections Framework?
+2.	What are the benefits of using Collections in Java?
+3.	What are the main interfaces in the Collections Framework?
+4.	Difference between Collection and Collections?
+5.	What is the root interface of the Collections Framework?
+6.	What is the difference between Iterable and Collection?
+________________________________________
+✅ 2. List Interface
+7.	What is a List in Java?
+8.	What are the implementations of the List interface?
+9.	Difference between ArrayList and LinkedList?
+10.	How does ArrayList work internally?
+11.	What is the initial capacity of an ArrayList?
+12.	How does LinkedList work internally?
+13.	When to use ArrayList vs LinkedList?
+14.	What is a Vector? How is it different from ArrayList?
+15.	What is a Stack and how is it different from other Lists?
+________________________________________
+✅ 3. Set Interface
+16.	What is a Set in Java?
+17.	What are the implementations of Set?
+18.	Difference between Set and List?
+19.	What is a HashSet?
+20.	How does HashSet work internally?
+21.	Why doesn’t HashSet allow duplicates?
+22.	What is LinkedHashSet?
+23.	What is TreeSet and how does it maintain order?
+24.	What is the time complexity of basic operations in HashSet and TreeSet?
+________________________________________
+✅ 4. Map Interface
+25.	What is a Map in Java?
+26.	What are the implementations of Map?
+27.	Difference between HashMap and Hashtable?
+28.	How does HashMap work internally (with hashCode and equals)?
+29.	What is the load factor and threshold in HashMap?
+30.	How does HashMap handle collisions?
+31.	What is LinkedHashMap?
+32.	What is TreeMap?
+33.	Difference between TreeMap and HashMap?
+34.	What is a ConcurrentHashMap?
+35.	Can a Map have null keys or null values?
+36.	What is the difference between Map and ConcurrentMap?
+________________________________________
+✅ 5. Queue and Deque
+37.	What is a Queue in Java?
+38.	What is the difference between Queue and Stack?
+39.	What are PriorityQueue and its internal working?
+40.	What is a Deque?
+41.	What is the difference between ArrayDeque and LinkedList?
+________________________________________
+✅ 6. Algorithms and Utilities
+42.	What are utility classes in the Collections Framework?
+43.	What is the use of Collections class?
+44.	What are commonly used methods in Collections?
+45.	How do you sort a list in Java?
+46.	How do you make a collection read-only?
+47.	How to make a collection thread-safe?
+48.	What is the Arrays utility class?
+________________________________________
+✅ 7. Iterator and ListIterator
+49.	What is an Iterator in Java?
+50.	Difference between Iterator and ListIterator?
+51.	What is the difference between fail-fast and fail-safe iterators?
+52.	Can we modify a collection while iterating?
+________________________________________
+✅ 8. Comparable and Comparator
+53.	What is the difference between Comparable and Comparator?
+54.	When to use Comparable and when to use Comparator?
+55.	Can a class implement both Comparable and Comparator?
+________________________________________
+✅ 9. Synchronization and Thread-Safety
+56.	Are Java collections thread-safe?
+57.	Difference between synchronized collection and concurrent collection?
+58.	What is Collections.synchronizedList()?
+59.	What is CopyOnWriteArrayList?
+60.	What is ConcurrentHashMap and how is it different from Hashtable?
+________________________________________
+✅ 10. Performance and Internal Working
+61.	What is the time complexity of basic operations in List, Set, and Map implementations?
+62.	How does Java resolve hash collisions in HashMap?
+63.	What is the role of equals() and hashCode() in collections?
+64.	How to override hashCode() and equals() properly?
+65.	Why is it important to override hashCode() when overriding equals()?
+________________________________________
+✅ 11. Special Collections
+66.	What is EnumSet?
+67.	What is EnumMap?
+68.	What is IdentityHashMap?
+69.	What is WeakHashMap and its use case?
+70.	What is Properties class in Java?
+________________________________________
+✅ 12. Real-Time and Practical Use
+71.	When would you use a HashMap in a real-world application?
+72.	How to sort a HashMap by values?
+73.	How to remove duplicates from a List using Set?
+74.	How do you design a custom collection class?
+75.	How do you traverse a Map?
+________________________________________
+✅ 1. Basics of Exception Handling
+1.	What is an exception in Java?
+2.	What is the difference between error and exception?
+3.	What is the base class for all exceptions in Java?
+4.	What is the purpose of exception handling?
+5.	What are the benefits of exception handling?
+________________________________________
+✅ 2. Types of Exceptions
+6.	What are the types of exceptions in Java?
+7.	What is a checked exception?
+8.	What is an unchecked exception?
+9.	Difference between checked and unchecked exceptions?
+10.	Examples of checked exceptions in Java?
+11.	Examples of unchecked exceptions in Java?
+12.	What is a runtime exception?
+________________________________________
+✅ 3. Exception Hierarchy
+13.	Explain the Java Exception class hierarchy.
+14.	What is the difference between Throwable, Exception, and Error?
+15.	Can we catch Error in Java?
+________________________________________
+✅ 4. try-catch-finally
+16.	What is the syntax of try-catch?
+17.	Can we use multiple catch blocks?
+18.	Can we catch multiple exceptions in a single catch block (multi-catch)?
+19.	Can finally block be skipped?
+20.	What happens if an exception is thrown in finally block?
+21.	What is the purpose of the finally block?
+22.	Can we have a try block without catch or finally?
+23.	Can a catch block catch more than one type of exception?
+________________________________________
+✅ 5. throw and throws
+24.	What is the throw keyword in Java?
+25.	What is the throws keyword in Java?
+26.	Difference between throw and throws?
+27.	Can we throw multiple exceptions using throw?
+28.	Can we declare multiple exceptions using throws?
+29.	Can a subclass override a method and throw a different exception?
+________________________________________
+✅ 6. Custom Exceptions
+30.	How do you create a custom exception in Java?
+31.	Should custom exceptions extend Exception or RuntimeException?
+32.	What are the use cases of custom exceptions?
+________________________________________
+✅ 7. Exception Propagation and Chaining
+33.	What is exception propagation in Java?
+34.	What is exception chaining?
+35.	How to chain exceptions using constructors?
+36.	Can exceptions be nested?
+________________________________________
+✅ 8. Common Exceptions
+37.	What is NullPointerException?
+38.	What is ArrayIndexOutOfBoundsException?
+39.	What is ClassCastException?
+40.	What is NumberFormatException?
+41.	What is IllegalArgumentException?
+42.	What is ArithmeticException?
+________________________________________
+✅ 9. Best Practices
+43.	What are the best practices for exception handling?
+44.	Why should you avoid catching generic Exception?
+45.	Is it good practice to log and throw exceptions?
+46.	Should you use exceptions for flow control?
+________________________________________
+✅ 10. Advanced Topics
+47.	Can we rethrow an exception in Java?
+48.	What is suppressed exception in Java?
+49.	What is the difference between final, finally, and finalize()?
+50.	What is the try-with-resources statement?
+51.	What interfaces must an object implement for try-with-resources?
+52.	How are exceptions handled in threads?
+53.	What is the Thread.UncaughtExceptionHandler?
+________________________________________
+✅ 11. Interview Scenarios & Tricky Questions
+54.	What happens when an exception is thrown inside a catch block?
+55.	Can we have multiple finally blocks?
+56.	Can we return from finally block?
+57.	Can we throw an exception from finally block?
+58.	What happens if an exception is thrown in both catch and finally?
+59.	What is the output if try has return, and finally also has return?
+________________________________________
+✅ 1. Overview of Java 8
+1.	What are the major features introduced in Java 8?
+2.	Why was Java 8 an important release?
+3.	What is the default method in interfaces?
+4.	What is a functional interface?
+5.	What is the @FunctionalInterface annotation?
+________________________________________
+✅ 2. Lambda Expressions
+6.	What is a lambda expression?
+7.	What is the syntax of a lambda expression?
+8.	How do lambda expressions improve Java programming?
+9.	Can lambda expressions access local variables?
+10.	What is effectively final variable?
+11.	Difference between anonymous inner class and lambda expression?
+12.	Can lambda expressions throw checked exceptions?
+13.	Can lambda expressions have multiple statements?
+________________________________________
+✅ 3. Functional Interfaces
+14.	What are functional interfaces provided by Java 8?
+15.	What is the Predicate interface?
+16.	What is the Function interface?
+17.	What is the Supplier interface?
+18.	What is the Consumer interface?
+19.	What is the UnaryOperator and BinaryOperator interface?
+20.	Can you create your own functional interface?
+________________________________________
+✅ 4. Streams API
+21.	What is a Stream in Java 8?
+22.	Difference between Collection and Stream?
+23.	What are the stages of a stream pipeline?
+24.	What is intermediate operation and terminal operation?
+25.	How does lazy evaluation work in streams?
+26.	How do you create a stream?
+27.	What is the difference between sequential and parallel streams?
+28.	What are some common stream operations? (filter, map, reduce, collect)
+29.	How does the map() operation work?
+30.	What is flatMap()?
+31.	What is the purpose of reduce()?
+32.	How do you convert a Stream back to a Collection?
+33.	What is a Collector in Java 8 streams?
+________________________________________
+✅ 5. Optional Class
+34.	What is Optional in Java 8?
+35.	Why was Optional introduced?
+36.	How to create an Optional object?
+37.	What methods does Optional provide to avoid null checks?
+38.	Difference between orElse(), orElseGet(), and orElseThrow()?
+39.	Can Optional be used with collections?
+________________________________________
+✅ 6. Date and Time API
+40.	What problems does the new Date and Time API solve?
+41.	What are the main packages/classes introduced for date and time?
+42.	What is LocalDate, LocalTime, LocalDateTime?
+43.	How is the new Date-Time API better than the old java.util.Date and Calendar?
+44.	How do you format dates in the new API?
+45.	What is Period and Duration?
+________________________________________
+✅ 7. Method References
+46.	What is a method reference?
+47.	What are the types of method references?
+48.	Difference between lambda expression and method reference?
+49.	Can method references be used with constructors?
+________________________________________
+✅ 8. Default and Static Methods in Interfaces
+50.	Why were default methods introduced?
+51.	How do default methods help with backward compatibility?
+52.	Can you override default methods in implementing classes?
+53.	Can interfaces have static methods? How do you call them?
+________________________________________
+✅ 9. Parallelism and Concurrency Enhancements
+54.	How does Java 8 improve parallelism?
+55.	How to create parallel streams?
+56.	What are the considerations when using parallel streams?
+________________________________________
+✅ 10. Miscellaneous Java 8 Features
+57.	What are repeated annotations?
+58.	What is type annotation?
+59.	How do you use CompletableFuture?
+60.	What are the improvements in Nashorn JavaScript engine?
+________________________________________
+✅ 1. Basics of Spring Boot
+1.	What is Spring Boot?
+2.	How is Spring Boot different from the Spring Framework?
+3.	What are the main features of Spring Boot?
+4.	What is the purpose of the @SpringBootApplication annotation?
+5.	What is auto-configuration in Spring Boot?
+6.	How does Spring Boot simplify application development?
+7.	What is the Spring Boot starter?
+8.	What are Spring Boot Starters? Can you name a few common starters?
+9.	What is the default port of Spring Boot application?
+10.	How do you change the default port in Spring Boot?
+________________________________________
+✅ 2. Spring Boot Architecture
+11.	How does Spring Boot auto-configuration work internally?
+12.	What is SpringApplication class?
+13.	What is Spring Boot CLI?
+14.	What is the difference between Spring Boot and Spring MVC?
+15.	What is the Spring Boot actuator?
+________________________________________
+✅ 3. Spring Boot Annotations
+16.	What is the use of @EnableAutoConfiguration?
+17.	What is the difference between @Component, @Service, @Repository, and @Controller?
+18.	What does @RestController do?
+19.	What is the role of @ConfigurationProperties?
+20.	What is @Value annotation used for?
+21.	Explain @Conditional annotations in Spring Boot.
+________________________________________
+✅ 4. Spring Boot Configuration
+22.	What are the ways to configure Spring Boot application?
+23.	What is application.properties or application.yml file?
+24.	How do you externalize configuration in Spring Boot?
+25.	How to use profiles in Spring Boot?
+26.	What is the default profile in Spring Boot?
+27.	How to set active profiles?
+28.	What are the different property sources Spring Boot supports?
+________________________________________
+✅ 5. Spring Boot Data Access
+29.	What is Spring Data JPA?
+30.	How do you configure a database connection in Spring Boot?
+31.	How does Spring Boot manage transactions?
+32.	What is the difference between CrudRepository and JpaRepository?
+33.	How to perform pagination and sorting in Spring Data JPA?
+34.	How to execute native queries in Spring Data JPA?
+________________________________________
+✅ 6. Spring Boot Security
+35.	What is Spring Security?
+36.	How to secure Spring Boot applications?
+37.	How do you configure basic authentication in Spring Boot?
+38.	What is OAuth2 in Spring Boot?
+39.	How to implement JWT authentication in Spring Boot?
+________________________________________
+✅ 7. Spring Boot REST API
+40.	How do you create a RESTful API in Spring Boot?
+41.	What annotations are used to handle HTTP requests?
+42.	How to handle exceptions in Spring Boot REST API?
+43.	How do you enable CORS in Spring Boot?
+44.	What is HATEOAS?
+45.	How to test Spring Boot REST APIs?
+________________________________________
+✅ 8. Spring Boot Actuator
+46.	What is Spring Boot Actuator?
+47.	What are some useful actuator endpoints?
+48.	How to customize actuator endpoints?
+49.	How to secure actuator endpoints?
+________________________________________
+✅ 9. Spring Boot Testing
+50.	How to test a Spring Boot application?
+51.	What is @SpringBootTest annotation?
+52.	How to write unit tests for controllers and services?
+53.	How do you use MockMvc in Spring Boot?
+________________________________________
+✅ 10. Spring Boot Deployment
+54.	How do you package a Spring Boot application?
+55.	What is the difference between jar and war packaging?
+56.	How to deploy Spring Boot applications in a server?
+57.	What is the embedded server in Spring Boot?
+58.	How to configure logging in Spring Boot?
+________________________________________
+✅ 11. Advanced Topics
+59.	What is Spring Boot starter parent?
+60.	How to create custom starters in Spring Boot?
+61.	What is Spring Boot DevTools?
+62.	What is the difference between @Bean and @Component?
+63.	How to enable asynchronous processing in Spring Boot?
+64.	How do you implement caching in Spring Boot?
+
+
+
